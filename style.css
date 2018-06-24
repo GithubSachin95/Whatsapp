@@ -2,17 +2,7 @@
 	border : 1px solid black;
 	
 }
-.blue{
-	background-color : blue;
-	height : 10vmax;
-}
-.red{
-	background-color : red;
-	height : 10vmax;
-}
-.green{
-	background-color : green;
-}
+
 .profile{
 	background-color : #00bfa5;
 	font-family: 'Quicksand', sans-serif;
@@ -21,13 +11,14 @@
 }
 .container{
 	background-color : #e9ecef ;
+	
 }
 .profile-card1{
 	
 	height: 400px;
 }
 .profile-card2{
-	height : 100vmax;
+	height : 52vmax;
 	
 }
 .zero-pad{
@@ -43,8 +34,11 @@
 	margin-left : 15px;
 }
 .fixer{
-	width : 5vmax;
-	height :5vmax;
+	float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
 }
 
 .footer{
@@ -59,4 +53,8 @@
 .container{
 width:auto;
 
+}
+
+.a{
+	color: black;
 }
